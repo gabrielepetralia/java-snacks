@@ -19,16 +19,16 @@ public class Snack10 {
 		System.out.println("Array con numeri random: " + Arrays.toString(arr));
 		
 		System.out.print("\nNumeri pari: ");
-        for (int elemento : arr) {
-            if (elemento % 2 == 0) {
-                System.out.print(elemento + " ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
             }
         }
 
         System.out.print("\nNumeri dispari: ");
-        for (int elemento : arr) {
-            if (elemento % 2 != 0) {
-                System.out.print(elemento + " ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 != 0) {
+                System.out.print(arr[i] + " ");
             }
         }
 

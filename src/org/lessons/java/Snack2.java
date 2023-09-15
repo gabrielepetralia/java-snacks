@@ -15,6 +15,7 @@ public class Snack2 {
 		for(int i=0; i<10; i++) {
 			String randName = names[rnd.nextInt(names.length)];
 			String randSurname = surnames[rnd.nextInt(surnames.length)];	
+			
 			System.out.println("- "+ randName + " " + randSurname);	
 		}
 	}
